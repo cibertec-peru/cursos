@@ -1,0 +1,12 @@
+git reset --hard idrama
+
+regresa a un commit pasado y desaparece lo de ese punto en adelante 
+es decir retrocede y borra lo avanzado 
+
+---------------------------------------------------
+
+git reflog 
+
+en caso se haya usado git reset --hard lo cual hace que en git log ya no aparescan los commit 
+con git reflog hace que aparezcan para recuperar la informacion  es decir es como el log pero mas potente 
+

@@ -1,2 +1,19 @@
-desplazamiento entre ramas
+desplazamiento entre commits
+para eso usaremos git checkout para movernos entre commit 
 
+$ git tree
+* 278deb1 (HEAD -> main) prueba check
+* 08b443d segundo aignorar archivo ignorar.txt
+* fa7035a regitro de git ignore
+* 44370d4 Elimina archivo .gitignore
+* 23bf353 cambiogit
+* c7f1731 check y reset
+* 5661e60 primer registro
+* 95db621 (origin/main) Inicial
+* 3657236 first commit
+
+para moverse a un commit en especifico 
+$ git checkout c7f1731
+
+para regresar al ultimo regitro el main
+$ git checkout main
