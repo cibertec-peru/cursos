@@ -32,3 +32,8 @@ cambiar entre ramas en este caso rama login creada
 git switch login 
 
 ------------------------------------
+
+git merge 
+
+teniendoen cuenta que en diferentes ramas se avanzan diferentes cosas y se quiere saber si aun es compatible lo avanzado
+se usa para convinar campos
