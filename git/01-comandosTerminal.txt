@@ -1,0 +1,12 @@
+ls:
+Litar el contenido
+
+cd: 
+Para trasladarce entre carpetas y paara retorceder se usa cd.. y una carpeta en especifico c "./."
+
+pwd:
+saber ubicacion actual de la ruta
+
+clear:
+limpiar terminal
+

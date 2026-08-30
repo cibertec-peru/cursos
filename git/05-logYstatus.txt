@@ -1,0 +1,12 @@
+
+-----------------------------------------
+
+git status 
+
+se usara para ver como esta el estado actual de los archivos
+
+-----------------------------------------
+
+git log
+
+se usa para ver los cambios realizados

@@ -1,0 +1,7 @@
+Se usa para iniciar git en la carpeta 
+
+git init 
+
+$ git init
+Initialized empty Git repository in C:/CURSOS/javascript/.git/
+

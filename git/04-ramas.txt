@@ -1,0 +1,18 @@
+// las ramas es como se maneja los flujos cada uno con su propio nombre
+la principal es la rama principal la rama "master" por estandar se suele cambiar de nombre a "main"
+
+git branch -M main
+
+------------------------------------------
+
+git add. 
+git add "ruta/archivo"
+
+sirve para agregar 
+
+------------------------------------------
+
+git commit -m "mensaje"
+
+sirve para crear un mensaje con una captura o fotografia para que quede como punto de guardado
+

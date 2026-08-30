@@ -1,0 +1,9 @@
+// Para configurar el usuario de git usar lo registrado en gihub
+
+git confirg --global user.name usuarioGit
+git config --global user.email corre@correo.com
+
+configurar coneccion a la github en web
+
+git remote add origin https://github.com/zhbk12/cursos.git
+
