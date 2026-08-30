@@ -1,0 +1,67 @@
+para ver avances
+
+git log 
+
+commit c7f1731b02d594d70cd52bb044a3bd334fc726bc (HEAD -> main)
+Author: zhbk12 <zandrovc@gmail.com>
+Date:   Sat Aug 29 21:06:57 2026 -0500
+
+    check y reset
+
+commit 5661e605a3874d48e9e4ae1b9cfe093d8ef9725c
+Author: zhbk12 <zandrovc@gmail.com>
+Date:   Sat Aug 29 20:48:15 2026 -0500
+
+    primer registro
+
+-----------------------------------------------------------
+$ git log --graph
+* commit c7f1731b02d594d70cd52bb044a3bd334fc726bc (HEAD -> main)
+| Author: zhbk12 <zandrovc@gmail.com>
+| Date:   Sat Aug 29 21:06:57 2026 -0500
+|
+|     check y reset
+|
+* commit 5661e605a3874d48e9e4ae1b9cfe093d8ef9725c
+| Author: zhbk12 <zandrovc@gmail.com>
+| Date:   Sat Aug 29 20:48:15 2026 -0500
+|
+|     primer registro
+
+-----------------------------------------------------------
+$ git log --graph --pretty=oneline
+* c7f1731b02d594d70cd52bb044a3bd334fc726bc (HEAD -> main) check y reset
+* 5661e605a3874d48e9e4ae1b9cfe093d8ef9725c primer registro
+* 95db6213841d800445fa7a800cf80ce236988655 (origin/main) Inicial
+* 3657236705fa8f7bd24e5dadf69ba8135c4ed32a first commit
+
+-------------------------------------------------------------
+$ git log --graph --decorate --pretty=oneline
+* c7f1731b02d594d70cd52bb044a3bd334fc726bc (HEAD -> main) check y reset
+* 5661e605a3874d48e9e4ae1b9cfe093d8ef9725c primer registro
+* 95db6213841d800445fa7a800cf80ce236988655 (origin/main) Inicial
+* 3657236705fa8f7bd24e5dadf69ba8135c4ed32a first commit
+
+-----------------------------------------------------------
+$ git log --graph --decorate --all --oneline
+* c7f1731 (HEAD -> main) check y reset
+* 5661e60 primer registro
+* 95db621 (origin/main) Inicial
+* 3657236 first commit
+
+--------------------------------------------------------------
+
+Nota: Se puede crear alias para evitarce todo el codigo
+por ejemplo un alias tree
+
+zandr@DESKTOP-3COTPSB MINGW64 /c/CURSOS (main)
+$ git config --global alias.tree "log --graph --decorate --all --oneline"
+
+zandr@DESKTOP-3COTPSB MINGW64 /c/CURSOS (main)
+$ git tree  --------------->
+* c7f1731 (HEAD -> main) check y reset
+* 5661e60 primer registro
+* 95db621 (origin/main) Inicial
+* 3657236 first commit
+
+
