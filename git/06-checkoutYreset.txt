@@ -1,0 +1,2 @@
+Se usaran checkout para moverse entre commits 
+y se usara reset para retroceder antes de hacer el commit 
