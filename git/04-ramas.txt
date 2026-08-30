@@ -16,3 +16,7 @@ git commit -m "mensaje"
 
 sirve para crear un mensaje con una captura o fotografia para que quede como punto de guardado
 
+------------------------------------------------------
+
+git branch y git switch
+

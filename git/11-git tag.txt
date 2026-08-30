@@ -16,4 +16,15 @@ $ git tree
 * 3657236 first commit
 
 
-se ve que se crea un identificador
+se ve que se crea un identificador ese identificador es estatio y se pueden ver los tag creados con el comando 
+git tag 
+
+zandr@DESKTOP-3COTPSB MINGW64 /c/CURSOS (main)
+$ git tag
+clase_1
+
+--------------------------------------------------------------
+
+tambien se puede trasladar entre tag con el checkput como 
+
+git checkout tags/clase_1
