@@ -18,5 +18,17 @@ sirve para crear un mensaje con una captura o fotografia para que quede como pun
 
 ------------------------------------------------------
 
-git branch y git switch
+git branch 
 
+crear una rama login 
+
+git branch login 
+
+-----------------
+git switch 
+
+cambiar entre ramas en este caso rama login creada
+
+git switch login 
+
+------------------------------------
