@@ -1,0 +1,17 @@
+git stah se usa para guardar de manera temporal antes del commit para que permita cambiar entre ramas ya que por lo general pide hacer un commit 
+
+zandr@DESKTOP-3COTPSB MINGW64 /c/CURSOS (main)
+$ git add .
+
+zandr@DESKTOP-3COTPSB MINGW64 /c/CURSOS (main)
+$ git sta
+stage    stash    status
+
+zandr@DESKTOP-3COTPSB MINGW64 /c/CURSOS (main)
+$ git stash
+Saved working directory and index state WIP on main: 83447c5 correccion y conflicto
+
+zandr@DESKTOP-3COTPSB MINGW64 /c/CURSOS (main)
+$ git switch login
+Switched to branch 'login'
+
