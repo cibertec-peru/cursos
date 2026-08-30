@@ -1,0 +1,9 @@
+Al crear un repositorio te dan estos comandos por defecto 
+echo "# cursos" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/zhbk12/cursos.git
+git push -u origin main
+
