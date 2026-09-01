@@ -2,3 +2,43 @@ para valdiar lo avanzado primero se revisa con un diff
 git diff rama
 
 // mensaje luego de cambio de rama
+
+
+
+
+zandr@DESKTOP-3COTPSB MINGW64 /c/CURSOS (main)
+$ git switch login
+Switched to branch 'login'
+
+zandr@DESKTOP-3COTPSB MINGW64 /c/CURSOS (login)
+$ git staus
+git: 'staus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+zandr@DESKTOP-3COTPSB MINGW64 /c/CURSOS (login)
+$ git status
+On branch login
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        git/15-reintegracion en git.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+zandr@DESKTOP-3COTPSB MINGW64 /c/CURSOS (login)
+$ git status
+On branch login
+
+
+-----------------
+-----------------
+
+
+Merge made by the 'ort' strategy.
+ git/15-reintegracion en git.txt | 4 ++++
+ git/loginrama.txt               | 2 +-
+ 2 files changed, 5 insertions(+), 1 deletion(-)
+ create mode 100644 git/15-reintegracion en git.txt
+
+zandr@DESKTOP-3COTPSB MINGW64 /c/CURSOS (main)

@@ -1,0 +1,19 @@
+Luego de integrar la otra rama a la rama principal del proyecto
+
+se usa 
+
+git branch -d rama 
+
+--
+zandr@DESKTOP-3COTPSB MINGW64 /c/CURSOS (main)
+$ git branch -d login
+Deleted branch login (was 9ebd13e).
+-  - 
+
+para vvaldiar se usa regflog
+para ver el registrodelos eliminados 
+para ver como referencia 
+
+-----------------------
+
+NOTA : los commits en realidad nunca se borrar solo se ocultan ya que como es codigo siempre se necesata un bcackup      
