@@ -1,0 +1,4 @@
+para valdiar lo avanzado primero se revisa con un diff 
+git diff rama
+
+// mensaje luego de cambio de rama
